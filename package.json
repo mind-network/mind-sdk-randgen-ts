@@ -1,0 +1,39 @@
+{
+  "name": "mind-randgen-sdk",
+  "version": "1.0.0",
+  "description": "A sample voter script for voting in RandGen Hub over Mind Network",
+  "files": [
+    "dist",
+    "fhe_wasm",
+    "README.md"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "abi": "typechain --target ethers-v6 --out-dir ./src/typechain ./src/abi/*",
+    "build": "tsc",
+    "cli": "tsc && node dist/cli.js"
+  },
+  "keywords": [
+    "randgen",
+    "mind network",
+    "fhe voter"
+  ],
+  "author": "Mind Network",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "commander": "^10.0.1",
+    "ethers": "^6.13.4",
+    "mind-hubs-sdk": "^1.0.0",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "@typechain/ethers-v6": "^0.5.1",
+    "@types/commander": "^2.12.0",
+    "@types/node": "^22.10.5",
+    "typechain": "^8.3.2",
+    "typescript": "^5.7.2"
+  }
+}

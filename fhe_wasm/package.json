@@ -1,0 +1,11 @@
+{
+  "name": "randgen-voter",
+  "version": "0.1.0",
+  "files": [
+    "randgen_voter_bg.wasm",
+    "randgen_voter.js",
+    "randgen_voter.d.ts"
+  ],
+  "main": "randgen_voter.js",
+  "types": "randgen_voter.d.ts"
+}
