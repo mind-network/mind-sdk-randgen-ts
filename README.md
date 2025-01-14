@@ -1,0 +1,1 @@
+# mind-sdk-randgen-ts-dev
