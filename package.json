@@ -1,7 +1,7 @@
 {
   "name": "mind-randgen-sdk",
-  "version": "1.0.0",
-  "description": "A sample voter script for voting in RandGen Hub over Mind Network",
+  "version": "1.0.2",
+  "description": "A sample voter CLI and SDK for voting in RandGen Hub over Mind Network",
   "files": [
     "dist",
     "fhe_wasm",
@@ -22,6 +22,10 @@
   ],
   "author": "Mind Network",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mind-network/mind-sdk-randgen-ts.git"
+  },
   "dependencies": {
     "axios": "^1.7.7",
     "commander": "^10.0.1",
